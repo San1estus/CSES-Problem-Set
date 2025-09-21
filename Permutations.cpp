@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+#define all(a) a.begin(), a.end()
+#define sz(a)  a.size()
+using namespace std;
+
+int main(void){
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    int n;
+    cin >> n;
+    if(n == 1) {cout << 1; return 0;}
+    if(n == 2 || n == 3) {cout << "NO SOLUTION" << '\n'; return 0;}
+    for(int i = 1; i*2 <= n; i++){
+        cout << i*2 << ' ';
+    }
+    for(int i = 1; i <= n; i+=2){
+        cout << i << ' ';
+    }
+    cout << '\n';
+    return 0;
+}
