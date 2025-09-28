@@ -11,7 +11,7 @@ int main(void){
     cout.tie(0);
     int n, x, val;
     cin >> n >> x;
-    unordered_map<int, int> values;
+    map<int, int> values;
     for(int i = 0; i < n; i++){
         cin >> val;
         if(values.count(x-val)){
