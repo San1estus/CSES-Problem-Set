@@ -128,7 +128,7 @@ int insidePolygon(point p, const vector<point>& points){
             return ON;
         }
     }
-
+    
     double sum = 0.0;
     for(int i = 0; i < n; i++){
         point p1 = points[i];
