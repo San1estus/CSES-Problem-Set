@@ -20,6 +20,7 @@ int main(void){
             cout << 1;
             continue;
         }
+        
     }
     return 0;
 }
